@@ -62,3 +62,7 @@ console.log("groupBy: ",_.groupBy([6.1, 4.2, 6.3], Math.floor));
 // The `_.property` iteratee shorthand.
 console.log("groupBy: ",_.groupBy(['one', 'two', 'three'], 'length'));
 // => { '3': ['one', 'two'], '5': ['three'] }
+
+// creates an array of array values not included in the other given arrays
+console.log(_.difference([2, 1], [2, 3]));
+// O/P --> [1]

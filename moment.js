@@ -127,3 +127,8 @@ result = moment(mainDate).isBetween(checkDate1, checkDate2); // true
 console.log("isBetween", result);
     
 console.log(moment('2023-02-20').isBetween('2023-02-19', undefined)); // true, since moment(undefined) evaluates as moment()
+
+// To get current timestamp
+console.log("current time is: ",moment().format('LTS'))
+
+// output: current time is:  9:54:37 PM

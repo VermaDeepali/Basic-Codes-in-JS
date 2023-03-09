@@ -66,3 +66,7 @@ console.log("groupBy: ",_.groupBy(['one', 'two', 'three'], 'length'));
 // creates an array of array values not included in the other given arrays
 console.log(_.difference([2, 1], [2, 3]));
 // O/P --> [1]
+
+// join --> Converts all elements in array into a string separated by separator.
+console.log(_.join(['d', 'e', 'e', 'p'], '~'));
+// O/P --> 'd~e~e~p'

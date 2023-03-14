@@ -70,3 +70,7 @@ console.log(_.difference([2, 1], [2, 3]));
 // join --> Converts all elements in array into a string separated by separator.
 console.log(_.join(['d', 'e', 'e', 'p'], '~'));
 // O/P --> 'd~e~e~p'
+
+// reverse --> function to reverse an array
+console.log(_.reverse([1,2,3,4,5,6]));
+// => [ 6, 5, 4, 3, 2, 1 ]

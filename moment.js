@@ -132,3 +132,6 @@ console.log(moment('2023-02-20').isBetween('2023-02-19', undefined)); // true, s
 console.log("current time is: ",moment().format('LTS'))
 
 // output: current time is:  9:54:37 PM
+
+
+// new moment update

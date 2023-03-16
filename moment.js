@@ -134,4 +134,24 @@ console.log("current time is: ",moment().format('LTS'))
 // output: current time is:  9:54:37 PM
 
 
-// new moment update
+// alternate ways for to get a quarter, week and new date also isValid check for a given date
+
+// to check whether a given date is valid or not
+console.log(moment([2023, 3, 16]).isValid()); // true
+console.log(moment([2023, 12, 16]).isValid()); // false coz month is based on 0 index and here we have provided 12 that doesn't exist
+
+//to get a new date with a given day, month and year
+const nextDate = moment().year(2023).month(2).date(16).format('YYYY-MM-DD'); 
+console.log("new Date: ",nextDate);
+
+// to get a quarter with a given date
+const quarter1 = moment("2023-03-16").quarter(); // 2 --> returns given date fall in which quarter
+console.log("quarter1", quarter1);
+const quarter2 = moment("2023-03-16").quarter(1).format('YYYY-MM-DD'); // quarter2 2023-03-16 --> returns the given quarter date
+console.log("quarter2", quarter2);
+
+// to get a week with a given date
+const week1 = moment("2023-03-16").week(); // 11 --> returns the current week number
+console.log("week1", week1);
+const week2 = moment("2023-03-16").week(12).format('YYYY-MM-DD'); // 2023-03-23 --> returns the week number on the basis of given date
+console.log("week2", week2);

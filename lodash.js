@@ -74,3 +74,11 @@ console.log(_.join(['d', 'e', 'e', 'p'], '~'));
 // reverse --> function to reverse an array
 console.log(_.reverse([1,2,3,4,5,6]));
 // => [ 6, 5, 4, 3, 2, 1 ]
+
+// strings capitalization
+
+console.log(_.capitalize('hello world'))   //  'Hello world'
+console.log(_.startCase('hello world'))   //  'Hello World'
+console.log(_.snakeCase('hello world'))   //  'hello_world'
+console.log(_.kebabCase('hello world'))   //  'hello-world'
+console.log(_.camelCase('hello world'))   //  'helloWorld'

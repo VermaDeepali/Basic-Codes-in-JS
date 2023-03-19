@@ -82,3 +82,12 @@ console.log(_.startCase('hello world'))   //  'Hello World'
 console.log(_.snakeCase('hello world'))   //  'hello_world'
 console.log(_.kebabCase('hello world'))   //  'hello-world'
 console.log(_.camelCase('hello world'))   //  'helloWorld'
+
+// get keys and values from a object
+const obj = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+console.log(_.keys(obj))  // [ 'a', 'b', 'c' ]
+console.log(_.values(obj)) // [ 1, 2, 3 ]

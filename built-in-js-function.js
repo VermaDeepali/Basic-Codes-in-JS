@@ -22,3 +22,9 @@ console.log(a2); // => [ 4, 5, 6 ]
 const i1 = [1,2,3]
 console.log(i1.includes(1)) // => true
 console.log(i1.includes(4)) // => false
+
+// 4. slice() --> slice() method returns a new array with specified start to end elements.
+const s = [1,2,3,4,5];
+let sliced = s.slcie(1,3);
+console.log(sliced) // => [2,3]
+console.log(s) // => [1,2,3,4,5]

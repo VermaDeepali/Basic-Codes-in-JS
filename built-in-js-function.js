@@ -28,3 +28,8 @@ const s = [1,2,3,4,5];
 let sliced = s.slcie(1,3);
 console.log(sliced) // => [2,3]
 console.log(s) // => [1,2,3,4,5]
+
+// 5. shift() --> shift() method removes the first element from an array and returns that element.
+let names = ["deep", "mannu"];
+names.shift();
+console.log(names); // ["mannu"]

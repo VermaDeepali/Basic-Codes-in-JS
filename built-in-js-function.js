@@ -33,3 +33,8 @@ console.log(s) // => [1,2,3,4,5]
 let names = ["deep", "mannu"];
 names.shift();
 console.log(names); // ["mannu"]
+
+// 6. unshift() --> unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+let friends = ["mannu", "deepu"];
+friends.unshift("deep", "manu");
+console.log(friends); // ["deep", "manu", "mannu", "deepu"]

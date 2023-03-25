@@ -38,3 +38,8 @@ console.log(names); // ["mannu"]
 let friends = ["mannu", "deepu"];
 friends.unshift("deep", "manu");
 console.log(friends); // ["deep", "manu", "mannu", "deepu"]
+
+// 7. fill() --> fill() method fills the elements in an array with a static value and returns the modified array.
+let arrFill = new Array(5);
+console.log(arrFill); // [empty, empty, empty, empty, empty]
+console.log(arrFill.fill(7)); // [7, 7, 7, 7, 7]

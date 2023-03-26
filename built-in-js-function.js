@@ -43,3 +43,8 @@ console.log(friends); // ["deep", "manu", "mannu", "deepu"]
 let arrFill = new Array(5);
 console.log(arrFill); // [empty, empty, empty, empty, empty]
 console.log(arrFill.fill(7)); // [7, 7, 7, 7, 7]
+
+// 8. indexOf() --> indexOf() method returns the index of the first occurrence of the specified element in the array, or -1 if it is not found.
+let namees = ["deep", "mannu", "mush"];
+let findIndex = namees.indexOf("mush");
+console.log(findIndex); //2

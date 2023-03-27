@@ -25,7 +25,7 @@ console.log(i1.includes(4)) // => false
 
 // 4. slice() --> slice() method returns a new array with specified start to end elements.
 const s = [1,2,3,4,5];
-let sliced = s.slcie(1,3);
+let sliced = s.slice(1,3);
 console.log(sliced) // => [2,3]
 console.log(s) // => [1,2,3,4,5]
 
@@ -48,3 +48,8 @@ console.log(arrFill.fill(7)); // [7, 7, 7, 7, 7]
 let namees = ["deep", "mannu", "mush"];
 let findIndex = namees.indexOf("mush");
 console.log(findIndex); //2
+
+// 9. map() --> map() method creates a new array with the results of calling a provided function on every element in this array.
+let mapp = [9,8,7];
+let newMappedData = mapp.map(e => e + 1);
+console.log(newMappedData); // [10, 9, 8]

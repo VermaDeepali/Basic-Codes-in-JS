@@ -53,3 +53,5 @@ console.log(findIndex); //2
 let mapp = [9,8,7];
 let newMappedData = mapp.map(e => e + 1);
 console.log(newMappedData); // [10, 9, 8]
+
+// 10.

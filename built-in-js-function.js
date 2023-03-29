@@ -54,4 +54,7 @@ let mapp = [9,8,7];
 let newMappedData = mapp.map(e => e + 1);
 console.log(newMappedData); // [10, 9, 8]
 
-// 10.
+// 10. reverse() --> reverse() method reverses an array in place. Element at last index will be first and element at 0 index will be last.
+let reverse = [4,5,6];
+reverse.reverse();
+console.log(reverse); // [6, 5, 4]

@@ -58,3 +58,8 @@ console.log(newMappedData); // [10, 9, 8]
 let reverse = [4,5,6];
 reverse.reverse();
 console.log(reverse); // [6, 5, 4]
+
+// 11. filter() -->  filter() method creates a new array with all elements that pass the test implemented by the provided function
+let filterArr = [1,2,3,4,5,6];
+let filteredData = filterArr.filter(e => e % 2 === 0);
+console.log(filteredData); // [2, 4, 6]

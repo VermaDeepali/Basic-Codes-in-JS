@@ -63,3 +63,5 @@ console.log(reverse); // [6, 5, 4]
 let filterArr = [1,2,3,4,5,6];
 let filteredData = filterArr.filter(e => e % 2 === 0);
 console.log(filteredData); // [2, 4, 6]
+
+// 

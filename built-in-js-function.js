@@ -64,4 +64,7 @@ let filterArr = [1,2,3,4,5,6];
 let filteredData = filterArr.filter(e => e % 2 === 0);
 console.log(filteredData); // [2, 4, 6]
 
-// 
+// 12. flat() --> flat() method creates a new array with sub-array elements concatenated to a specified depth.
+const arrr = [[1,2],[3,4],[5,6]];
+const flattenedArray = arrr.flat();
+console.log(flattenedArray); //[1, 2, 3, 4, 5, 6]
